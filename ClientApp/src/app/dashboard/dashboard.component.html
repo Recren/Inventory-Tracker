@@ -1,0 +1,8 @@
+<div class="container">
+  <h1 class="title">Welcome to the inventory tracker</h1>
+  <div class="card-container">
+    <div *ngFor="let category of categoriesList">
+      <app-category-card [categoryInfo]="category"></app-category-card>
+    </div>
+  </div>
+</div>
